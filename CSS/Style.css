@@ -16,8 +16,14 @@ header {
     line-height: 100px;
     margin: 100px auto 0 auto;
     clear: both;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
+.logo{
+    display: flex;
+     ;
+}
 main {
     display: flex;
     justify-content: space-between;
